@@ -10,7 +10,7 @@ on:
         inputs:
             decrypted_instagram_url:
                 description: "The direct URL to the decrypted Instagram IPA"
-                default: ""
+                default: "https://armconverter.com/decryptedappstore/download/389801252/com.burbn.instagram/453.0?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNDIyMzQ3MSIsImlhdCI6MTc5MzMwOTUzMSwiZXhwIjoxNzkzMzIwMzMxLCJhcHBpZCI6Mzg5ODAxMjUyLCJhcHB2ZXIiOiI0NTMuMCJ9.rd0GcYkP9S-7WTFVY400KexCaZk9aZmYjW1od_JqKnY"
                 required: true
                 type: string
             upload_artifact:
